@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-weight: 400;
+    user-select: none;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+body {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #EEE;
+    color: #222;
+    line-height: 1.6;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+
+#equipeGP {
+    gap: 10px;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+#equipeGP ul {
+    list-style: inside;
+}
+
+#divGP div {
+    text-align: center;
+}
+
+#divGP p {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#divGP div h1 {
+    height: 50px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+
+#divGP div p:nth-child(1) {
+    color: #FFF;
+}
+
+#navGP {
+    width: 100%;
+    height: 70px;
+    color: #FFF;
+    background-color: #000;
+}
+
+#navGP ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navGP div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#navGP li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+#navGP p {
+    height: 100%;
+    display: flex;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: x-large;
+    align-items: center;
+    /* pointer-events: none; */
+    text-decoration: none;
+    justify-content: center;
+}
+
+#navGP p:hover {
+    color: #0FF;
+}
+
+#divGP {
+    padding: 5vw 5vw;
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5vw;
+    line-height: 25px;
+}
+
+#divGP div {
+    height: 100vh;
+    justify-content: space-between;
+}
+
+#divGP div:not(#divGP div:nth-child(1)) {
+    visibility: hidden;
+}
+
+#divGP a {
+    background-color: #000;
+    text-decoration: none;
+    color: #0DD;
+    padding: 2px;
+}
+
+#divGP a:hover {
+    color: #0FF;
+}
+
+#divGP img {
+    border: 1px solid black;
+    width: 80vw;
+    height: 40vw;
+    border: thin #0DD solid;
+    padding: 5px;
+}
+
+
+.sublinhado {
+    border-bottom: 4px solid #0DD;
+}
+
+
+#titulos {
+    color: #222;
+    margin-top: 8px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#equipe {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#divEsq,
+#divDir {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+#divEsq div,
+#divDir div {
+    width: 180px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#equipe img {
+    filter: saturate(0);
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+#equipe p {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #222;
+    color: #0DD;
+}
