@@ -1,3 +1,6 @@
+"use strict";
+//O modo estrito torna mais fácil escrever JavaScript "seguro".
+//LINK: https://www.w3schools.com/js/js_strict.asp
 
 var GP=[
     {
